@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.App .column {
+    width: 30%;
+}
+
+.droppable-col {
+    width: 100%;
+    background-color: rgb(223, 223, 241);
+    padding: 10px 10px 0 10px;
+    /* border-radius: 3px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
+    /* background-color: rgb(174, 253, 154); */
+    color: rgb(4, 2, 2);
+    border: 1px solid rgb(4, 8, 237);
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.item.dragging {
+    background-color: rgb(255, 1, 1);
+}

@@ -1,0 +1,19 @@
+.col-md-3{
+    background-color: beige;
+ 
+  }
+
+  .heading{
+    
+    background-color: rgb(223, 63, 63);
+  }
+
+  .hold{
+    border: 2px red solid;
+
+  }
+
+  .hide{
+    display: none;
+
+  }
